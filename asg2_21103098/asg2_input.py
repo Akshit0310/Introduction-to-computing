@@ -3,7 +3,7 @@
 input_string="Python is a case sensitive language"
 #a)part
 print("Part A!")
-print("Length os input string", len(input_string)) #The length of input string
+print("Length of input string", len(input_string)) #The length of input string
 
 
 #b)part
