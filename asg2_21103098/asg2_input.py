@@ -37,14 +37,14 @@ print(input_string.replace(" ", "")) #Removing all the blank spaces between word
 #Question 2
 
 #Taking input from user
-name = input("Please enter your name: ")
-sid = input("Enter SID: ")
-dep = input("Enter department name: ")
-cgpa = float(input("Enter CGPA: "))
-print("\n\n Hey, "+ name +" Here!")        #printing according to question
-print("     My SID is ", sid)
-print("     I am from " + dep + " department and my CGPA is ",cgpa)
-
+NAME=input("ENTER YOUR NAME")
+SID=int(input("ENTER YOUR SID"))
+DEPARTMENT=input("ENTER YOUR DEPARTMENT")
+CGPA=float(input("ENTER YOUR CGPA"))
+print("Hey %s,"%NAME,"Here!")
+print("My SID is %d" %SID)
+print("I am from %s"%DEPARTMENT,"and my CGPA is %f"%CGPA) #Printing the sentence
+print("\n")
 
 #Question3
 
