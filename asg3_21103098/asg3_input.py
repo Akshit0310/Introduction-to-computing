@@ -51,16 +51,9 @@ def start():#creating a starting function
         pass
 
     c = int(input("Enter the year:"))#year
-    if(b<=0 or b>12):
-        print("Invalid date")
-        print("Taking you back to options")
-        start()
-    elif(c<1800 or c>2025):
+    if(c<1800 or c>2025):
         print("Please enter the year between 1800 and 2025")
         print("Taking you back to options")
-        start()
-    elif(c<=1800 or c>=2025):
-        print("Please enter value of year in between 1800 and 2025(both included)")
         start()
     elif(b==1 or b==3 or b==5 or b==7 or b==8 or b==10):
         if(a>31):
