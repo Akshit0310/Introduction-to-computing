@@ -4,7 +4,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 ========================================================= RESTART: D:/pec/study/computer/assignment/asg3_21103098/asg1_input.py ========================================================
 Question 1
 Enter any string: Akshit
-{'A': 1, 'k': 1, 's': 1, 'h': 1, 'i': 1, 't': 1}
+{'a': 1, 'k': 1, 's': 1, 'h': 1, 'i': 1, 't': 1}
 
 
 
