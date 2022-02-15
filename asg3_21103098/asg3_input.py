@@ -1,6 +1,7 @@
 #Question1
 print("Question 1")
 a=str(input("Enter any string: "))
+a=a.lower()
 list=a.split() #spliting all elements in string
 dict={} #creating an empty dictionary
 if(list.__len__()==1):   #if statement will be implemented when a single word is entered
