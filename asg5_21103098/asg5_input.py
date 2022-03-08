@@ -185,7 +185,7 @@ if __name__ == "__main__":
 
 	equation = StringVar()
 
-	expression_field = Entry(gui, textvariable=equation,bg='black')
+	expression_field = Entry(gui, textvariable=equation,bg='black',fg='white')
 
 	# grid method is used for placing
 	# the widgets at respective positions
