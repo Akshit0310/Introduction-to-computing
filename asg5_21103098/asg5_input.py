@@ -288,16 +288,16 @@ def quickSort(arr, low, high):
         quickSort(arr, pi + 1, high)
 
 
-n = int(input())
-li = list(map(int, input().strip().split()))
+n = int(input("Enter total numbers you want to enter: "))
+li = list(map(int, input("Enter your numbers here(put a gap after each number): ").strip().split()))
 quickSort(li, 0, n - 1)
 print("Sorted array is: ", li)
 print("\n\n")
 
 #QUESTION5
 print("ANSWER 5")
-n = int(input())
-li = list(map(int, input().strip().split()))
+n = int(input("Enter total numbers you want to enter: "))
+li = list(map(int, input("Enter your numbers here(put a gap after each number): ").strip().split()))
 # Part 1
 li.sort()
 print("Sorted array is:", li)
@@ -308,7 +308,7 @@ low = 0
 high = n
 count = 0
 ind = -1
-to_find = int(input())
+to_find = int(input("Enter number you want to search: "))
 while(low < high):
     mid = low + (high - low) // 2
     if(int(li[mid]) == to_find):
@@ -327,14 +327,10 @@ if flag == False:
 if(ind == -1):
     print("No element\n")
 else:
-    i = mid
-    j = mid
-    count = 0
-    for k in range(0, max(i, n - j)):
-        if(i >= 0 and li[i] == to_find):
-            count += 1
-            i -= 1
-        if(j < n and li[j] == to_find):
-            count += 1
-            j += 1
-    print("Total number of occurances is:", count - 1)
+    count=0
+    for i in range(0,n):
+        if(li[i]==to_find):
+            count+=1
+        else:
+            pass
+    print("Total number of occurences is: ",str(count))
